@@ -1,3 +1,7 @@
 *.log
 *.txt
 *.gitattributes
+*.jpg
+__pycache__/
+*.db
+*.code-workspace

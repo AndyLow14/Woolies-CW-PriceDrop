@@ -1,16 +1,32 @@
 {
   "Chemist_Warehouse": {
-    "Inc Choc": "74342",
-    "Cenovis B": "78520",
-    "AR Cloud": "89384",
-    "CK Be": "55177"
+    "Inc Choc": "74342/inc-hardgainer-mass-chocolate-flavour-2kg",
+    "CK Be": "55177/calvin-klein-ck-be-eau-de-toilette-200ml",
+    "Wakey Lemon": "124718/wakey-wakey-caffeine-effervescent-lemon-lime-flavour-20-tablets",
+    "Wakey Liquid Caps": "142283/wakey-wakey-caffeine-energy-liquid-capsules-20-pack",
+    "Difflam Plus": "41060/difflam-sore-throat-sugar-free-honey-and-lemon-16-lozenges",
+    "Strepsils Orange": "59028/strepsils-soothing-lozenges-orange-16pk-sore-throat-double-antibacterial"
   },
   "Woolworths": {
-    "Milo": "192985",
     "Up&Go Choc x12": "768911",
     "Up&Go Choc x6": "717254",
     "Up&Go Choc x3": "353338",
+    "Milo 1kg": "192985",
+    "Milo refill 730g": "289272",
+    "Cottees Orange": "362459",
+    "Pepsi x10": "6033651",
+    "Fanta x10": "793311",
+    "Mountain Dew x10": "6033782",
+    "Pringles OG": "479501",
+    "Cont. Soup": "26649",
+    "Shin Ramyun": "785977",
+    "Shin Black": "167307",
     "Mamee Laksa": "841673",
-    "Colgate 360 TB": "200710"
+    "Mama Cup": "663037",
+    "Attack Det+Soft 2kg": "595410",
+    "Cold Power 4kg": "88205",
+    "Colgate Optic TB 4Pack": "200710",
+    "Woolies Baby Beans": "768582",
+    "McCain Baby Beans": "22239"
   }
 }
