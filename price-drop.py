@@ -1,6 +1,7 @@
 import re
 import sqlite3
 import json
+import os
 from datetime import datetime
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -18,7 +19,7 @@ watchlist_f.close()
 # modified_time = os.path.getmtime("log.txt")
 # if datetime.fromtimestamp(modified_time).date() < datetime.now().date():
 
-log_f = open(r"C:\Users\jumpa\OneDrive\Code\PriceDropLog.txt", "w")
+log_f = open(os.path.join(os.path.expanduser("~"),'OneDrive\\Code\\PriceDropLog.txt'), "w")
 
 
 # Delay to allow website to load
@@ -26,7 +27,7 @@ WAIT_DELAY = 2
 
 CW_BASE = "https://www.chemistwarehouse.com.au/buy/"
 WOOLIES_BASE = "https://www.woolworths.com.au/shop/productdetails/"
-DB_PATH = r"C:\Users\jumpa\Desktop\Code\Python-PriceDrop\prices.db"
+DB_PATH = os.path.join(os.path.expanduser("~"),'Desktop\\Code\\Python-PriceDrop\\prices.db')
 
 toast_dict: Dict[str, str] = {}
 
