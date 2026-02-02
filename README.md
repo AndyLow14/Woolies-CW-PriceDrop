@@ -8,6 +8,18 @@ Cheeky woolies have restricted their API access, thats why I used trusty bots in
 
 The script currently supports items from [chemistwarehouse.com.au](https://chemistwarehouse.com.au) and [woolworths.com.au](https://woolworths.com.au)
 
+### Running the script
+
+Install dependencies
+```
+uv sync
+```
+
+Start the program
+```
+uv run price-drop.py
+```
+
 ### JSON Format
 
 ```
@@ -28,19 +40,5 @@ The script currently supports items from [chemistwarehouse.com.au](https://chemi
 ### How to get Product Ids
 
 When you view a product from a CW (chemistwarehouse.com.au/buy/`{id}`/foo-bar) or Woolies (woolworths.com.au/shop/productdetails/`{id}`/foo-bar) website, the ids should be in the url.
-
-### Dependencies
-
-```
-pip install bs4
-```
-
-```
-pip install selenium
-```
-
-```
-pip install win11toast
-```
 
 **Requires Firefox browser to work**
